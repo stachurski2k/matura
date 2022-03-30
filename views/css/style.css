@@ -1,0 +1,59 @@
+body {
+  background: rgba(0, 76, 95, 0.904);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.note_book {
+  resize: none;
+  display: block;
+  width: 72%;
+  height: 500px;
+
+  background-color: rgba(77, 77, 77, 0.746);
+  border-width: 15px;
+  border-color: rgba(0, 247, 255, 0.733);
+  border-style: groove;
+  color: rgba(255, 255, 255, 0.472);
+  font-size: 40px;
+}
+
+#pdf_theme {
+  width: 100%;
+  height: 1080px;
+  float: right;
+}
+
+.answer_write {
+  resize: none;
+  border-style: groove;
+  width: 62%;
+  height: 5%;
+  margin-top: 1%;
+  font-size: 40px;
+  background-color: rgba(77, 77, 77, 0.746);
+  border-width: 15px;
+  border-color: rgba(0, 247, 255, 0.733);
+  color: rgba(255, 255, 255, 0.472);
+}
+
+.button_theme {
+  font-size: 20px;
+  border-style: solid;
+  width: 60%;
+  height: 5%;
+  margin-top: 1%;
+  background-color: rgba(77, 77, 77, 0.746);
+  border-width: 15px;
+  border-color: rgba(0, 247, 255, 0.733);
+  color: rgba(255, 255, 255, 0.472);
+}
+
+#first_block {
+  float: left;
+  width: 65%;
+}
+#pdf {
+  float: left;
+  width: 35%;
+}
