@@ -16,9 +16,6 @@ app.use(express.static(__dirname+"/static"));
 app.get("",(req,res)=>{
     res.render("index");
 });
-app.post("/add",(req,res)=>{
-    console.log(req.body);
-});
 app.use(files);
 //404
 app.use((req,res)=>{
